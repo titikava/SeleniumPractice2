@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/iaros/IdeaProjects/SeleniumPractice1/src/main/java/lessonSelenium/smokeTstNG">
+        <classes>
+            <class name="lessonSelenium.smokeTstNG.TestNG1">
+                <methods>
+                    <include name="test1"/>
+                </methods>
+            </class>
+            <class name="lessonSelenium.smokeTstNG.TestNG2">
+                <methods>
+                    <include name="test2"/>
+                </methods>
+            </class>
+        </classes>
+        <!--  <classes>
+              <class name="lessonSelenium.smokeTstNG.TestNG1">
+                  <methods>
+                      <include name="test1"/>
+                  </methods>
+              </class>
+              <class name="lessonSelenium.smokeTstNG.TestNG2">
+                  <methods>
+                      <include name="test2"/>
+                  </methods>
+              </class>
+          </classes>
+          Таким образом запускаются методы. Используя <package> можно запускать пакеты
+          <packages>
+            <package name="lessonSelenium.smokeTstNG"/>
+        </packages>
+        -->
+    </test>
+</suite>
